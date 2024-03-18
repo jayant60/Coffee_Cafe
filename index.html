@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffe Cage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <script
+      src="https://kit.fontawesome.com/5d223a1d6c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="nav-bar">
+      <nav>
+        <div class="logo">
+          Coffee
+          <span> Cafe</span>
+        </div>
+        <ul id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#review">Review</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        <div class="nav-icon">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href=""
+            ><i
+              class="fa-solid fa-cart-shopping"
+              onclick="cardsMenusToggle()"
+            ></i
+          ></a>
+        </div>
+      </nav>
+    </div>
+
+    <!----------------------------Home-------------------------------->
+    <div id="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="home-text">
+            <h1>
+              FRESH COFFEE IN<br />
+              <span data-text="THEMORNING"> THEMORNING</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis quisquam alias<br />
+              itaque aspernatur exercitationem repudiandae. A quisquam sunt
+              molestias iste.
+            </p>
+            <div class="btn">
+              <a href="#">Get it more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------About us--------------------------------->
+    <div id="about">
+      <h1 class="sub-title"><span>ABOUT</span> US</h1>
+
+      <div class="about-list">
+        <div class="about-content">
+          <img src="about1.jpg" alt="" />
+        </div>
+        <div class="about-content">
+          <h1>What Makes our coffee special?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+            rem. Fuga tenetur ipsum ad, perspiciatis sint magnam veritatis
+            aliquam itaque praesentium? Quia tempora rem, consequuntur delectus
+            necessitatibus tempore dignissimos facere? Tempora, explicabo.
+            Iusto, necessitatibus!<br />
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
+            asperiores pariatur sit eligendi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu">
+      <div class="container-ab">
+        <h1 class="sub-title">OUR <span>MENU</span></h1>
+        <div class="menu-content">
+          <div class="box">
+            <img src="product9.jpg" alt="" />
+            <h3>Testy and Healthy</h3>
+            <p>$15.99 <span>$85.66</span></p>
+            <div class="btn btn2">
+              <a href="#">Add to Card</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="product8.jpg" alt="" />
+            <h3>Testy and Healthy</h3>
+            <p>$15.99 <span>$85.66</span></p> 
+            <div class="btn btn2">
+              <a href="#">Add to Card</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="product4.jpg" alt="" />
+            <h3>Testy and Healthy</h3>
+            <p>$15.99 <span>$85.66</span></p>
+            <div class="btn btn2">
+              <a href="#">Add to Card</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="product5.jpg" alt="" />
+            <h3>Testy and Healthy</h3>
+            <p>$15.99 <span>$85.66</span></p>
+            <div class="btn btn2">
+              <a href="#">Add to Card</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="product6.jpg" alt="" />
+            <h3>Testy and Healthy</h3>
+            <p>$15.99 <span>$85.66</span></p>
+            <div class="btn btn2">
+              <a href="#">Add to Card</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="frontimg.jpg" alt="" />
+            <h3>Testy and Healthy</h3>
+            <p>$15.99 <span>$85.66</span></p>
+            <div class="btn btn2">
+              <a href="#">Add to Card</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------Products----------------------->
+    <div id="product">
+      <h1 class="sub-title">latest <span>products</span></h1>
+
+      <div class="product-list">
+        <div class="box-content">
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#"> <i class="fa-solid fa-heart"></i></a>
+          <a href="#"><i class="fa-solid fa-eye"></i></a>
+          <img src="1-removebg-preview.png" alt="" />
+          <h1>Fresh Coffee</h1>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="prize">
+            <p>$15.99 <span>26.90</span></p>
+          </div>
+        </div>
+
+        <div class="box-content">
+          <a href="#"
+            ><i class="fa-solid fa-cart-shopping" style="color: white"></i
+          ></a>
+          <a href="#"> <i class="fa-solid fa-heart"></i></a>
+
+          <a href="#"><i class="fa-solid fa-eye"></i></a>
+
+          <img src="2-removebg-preview.png" alt="" />
+          <h1>Fresh Coffee</h1>
+
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="prize">
+            <p>$15.99 <span>26.90</span></p>
+          </div>
+        </div>
+
+        <div class="box-content">
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#"> <i class="fa-solid fa-heart"></i></a>
+          <a href="#"><i class="fa-solid fa-eye"></i></a>
+          <img src="3-removebg-preview.png" alt="" />
+          <h1>Fresh Coffee</h1>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="prize">
+            <p>$15.99 <span>26.90</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------cumtomer's review------------>
+    <div id="review">
+      <h1 class="sub-title">cumtomer's <span>review</span></h1>
+      <div class="review-list">
+        <div class="review-content">
+          <i class="fas fa-angle-double-down review-icon"></i>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            vel impedit, alias reprehenderit laudantium porro quibusdam ipsam
+            sint? Sint perspiciatis laborum laudantium nostrum iure? Recusandae
+            beatae veniam inventore fugit eveniet?
+          </p>
+          <img src="jayant3.png" alt="" />
+          <p>Jayant Nayan</p>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+
+        <div class="review-content">
+          <i class="fas fa-angle-double-down review-icon"></i>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            vel impedit, alias reprehenderit laudantium porro quibusdam ipsam
+            sint? Sint perspiciatis laborum laudantium nostrum iure? Recusandae
+            beatae veniam inventore fugit eveniet?
+          </p>
+          <img src="jayant3.png" alt="" />
+          <p>Jayant Nayan</p>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+
+        <div class="review-content">
+          <i class="fas fa-angle-double-down review-icon"></i>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            vel impedit, alias reprehenderit laudantium porro quibusdam ipsam
+            sint? Sint perspiciatis laborum laudantium nostrum iure? Recusandae
+            beatae veniam inventore fugit eveniet?
+          </p>
+          <img src="jayant3.png" alt="" />
+          <p>Jayant Nayan</p>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+    </div>
+
+    <!----------------Contact-------------------------------->
+
+    <div id="contact">
+      <h1 class="sub-title">Contact <span>us</span></h1>
+      <div class="contact-list">
+        <div class="contact-contant">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14425.37527422376!2d84.24754129697682!3d25.326241337483722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398d9d7020b2b399%3A0xcc1a3755ba174041!2sKoath%2C%20Bihar%20802216!5e0!3m2!1sen!2sin!4v1706543267368!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </div>
+        <div class="contact-contant contact2">
+          <h1>get in touch</h1>
+          <div class="contact-form1">
+            <div class="contact-us">
+              <i class="fa-regular fa-address-card contact-icon"></i>
+              <input
+                type="text"
+                name="name"
+                id=""
+                required
+                placeholder="Name"
+                class="contact-form"
+              />
+            </div>
+
+            <div class="contact-us">
+              <i class="fa-solid fa-envelope-open-text contact-icon"></i>
+              <input
+                type="text"
+                name="Email"
+                id=""
+                required
+                placeholder="Email"
+                class="contact-form"
+              />
+            </div>
+
+            <div class="contact-us">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <input
+                type="number"
+                name="name"
+                id=""
+                required
+                placeholder="Phone"
+                class="contact-form"
+              />
+            </div>
+          </div>
+
+          <div class="btn">
+            <a href="#">Contact Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------Blogs-------------------------------->
+    <div id="blogs">
+      <h1 class="sub-title">Our <span>blogs</span></h1>
+      <div class="blog-list">
+        <div class="blog-contant">
+          <img src="product6.jpg" alt="" />
+          <h4>tasty and refreshing coffee</h4>
+          <h5>by admin/28 JAN 2024</h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at
+            distinctio dolorem voluptas!
+          </p>
+
+          <div class="btn btn2">
+            <a href="#">read more</a>
+          </div>
+        </div>
+        <div class="blog-contant">
+          <img src="product7.jpg" alt="" />
+          <h4>tasty and refreshing coffee</h4>
+          <h5>by admin/28 JAN 2024</h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at
+            distinctio dolorem voluptas!
+          </p>
+
+          <div class="btn btn2">
+            <a href="#">read more</a>
+          </div>
+        </div>
+        <div class="blog-contant">
+          <img src="product8.jpg" alt="" />
+          <h4>tasty and refreshing coffee</h4>
+          <h5>by admin/28 JAN 2024</h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere at
+            distinctio dolorem voluptas!
+          </p>
+
+          <div class="btn btn2">
+            <a href="#">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------Card menu---------------------------->
+    <div class="card-menu">
+      <div class="item3">
+        <div class="itam4">
+          <img src="product7.jpg" alt="" />
+        </div>
+        <div class="item-text">
+          <h3>Card Item 01</h3>
+          <p>$12.21</p>
+        </div>
+
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="item3">
+        <div class="itam4">
+          <img src="product7.jpg" alt="" />
+        </div>
+        <div class="item-text">
+          <h3>Card Item 02</h3>
+          <p>$12.21</p>
+        </div>
+
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="item3">
+        <div class="itam4">
+          <img src="product7.jpg" alt="" />
+        </div>
+        <div class="item-text">
+          <h3>Card Item 03</h3>
+          <p>$12.21</p>
+        </div>
+
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="item3">
+        <div class="itam4">
+          <img src="product7.jpg" alt="" />
+        </div>
+        <div class="item-text">
+          <h3>Card Item 04</h3>
+          <p>$12.21</p>
+        </div>
+
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="btn btn3">
+        <a href="#">Checked now</a>
+      </div>
+    </div>
+
+    <!----------------------Footer---------------------------->
+    <footer>
+      <div class="medai-icon">
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+      </ul>
+
+      <p>Created By <span>Web Code:</span>@ All right Respond</p>
+    </footer>
+    <script>
+      var sidemeu = document.getElementById("nav-menu");
+
+function openmenu() {
+  sidemeu.style.right = "0";
+}
+function closemenu() {
+  sidemeu.style.right = "-200px";
+}
+
+var cardmenu = document.querySelector(".card-menu");
+
+
+      function cardsMenusToggle(){
+        cardmenu.classlist(".card-menu-height");
+
+
+
+      }
+    </script>
+  </body>
+</html>
